@@ -1,11 +1,11 @@
-# Simple Cipher with Menu
+# 3 Key Cipher
 
 This is a console-based C# application demonstrating a simple cipher that:
 • Uses three 64-character (512-bit) keys.  
 • Shifts bytes based on two keys (Key1 and Key2).  
 • Pseudo-randomly permutes the byte order based on a seed derived from a third key (Key3).
 
-Please note that this cipher is purely for demonstration and learning. It is not cryptographically secure.
+Please note that this cipher is purely for fun. It is not cryptographically secure.
 
 ---
 
