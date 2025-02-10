@@ -1,4 +1,5 @@
 ﻿using System.Text;
+using _2ds;
 
 namespace _3KC
 {
@@ -46,6 +47,15 @@ namespace _3KC
 		/// </summary>
 		static void EncryptOption()
 		{
+			Console.Write("Enter text to encrypt (len:16): ");
+			string? text = Console.ReadLine();
+			char[] textchar = text.ToCharArray();
+			Console.Write("Enter Key (len=16): ");
+			string? key1 = Console.ReadLine();
+			char[] keychar = key1.ToCharArray();
+			Dismensional dismensional = new Dismensional();
+			dismensional.ArrayCommon(textchar, keychar);
+			/*
 			Console.Clear();
 			Console.WriteLine("=== Encrypt Text ===");
 			Console.Write("Enter text to encrypt: ");
@@ -64,7 +74,7 @@ namespace _3KC
 			Console.WriteLine($"Key2 (Weight Pattern): {key2}");
 			Console.WriteLine($"Key3 (Shuffle Pattern): {key3}");
 
-			Console.WriteLine($"\nEncrypted Text: {encryptedText}");
+			Console.WriteLine($"\nEncrypted Text: {encryptedText}");*/
 		}
 
 		/// <summary>
