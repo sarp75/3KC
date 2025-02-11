@@ -83,8 +83,7 @@ class Dismensional {
         for(int i = 0; i < 4; i++) {//x
             for(int j = 0; j < 4; j++) {//y
                 encrypted[i+4*j] = (char)((int)message[i + 4 * j] ^ (int)key[i + 4 * j]); //take the xor of message(x,y) and key(x,y)
-				Console.WriteLine($"Encrypted char (Hex): {((int)encrypted[i + 4 * j]).ToString("X2")}");
-				Console.WriteLine($"Encrypted char (Letter): {((int)encrypted[i + 4 * j])}");
+				Console.WriteLine($"Encrypted char (Letter):" + (int)message[i+4*j]);
 				}
         }
     }
