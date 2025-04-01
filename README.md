@@ -119,7 +119,7 @@ Below is a high-level view of the main sections in Program.cs:
 ## Disclaimer
 
 • This application is a purely educational example.  
-• It is not cryptographically secure.  
+• It is not cryptographically secure. (But since no one uses this in prod, it can be ironically secure.)
 • For real-world encryption, always use industry-standard libraries and algorithms (e.g., AES, RSA, ECC).
 
 Please feel free to experiment with this code for learning and demonstration purposes, but do not rely on it for production or sensitive data.
