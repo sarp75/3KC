@@ -5,7 +5,7 @@ This is a console-based C# application demonstrating a simple cipher that:
 • Shifts bytes based on two keys (Key1 and Key2).  
 • Pseudo-randomly permutes the byte order based on a seed derived from a third key (Key3).
 
-Please note that this cipher is purely for fun. It is not cryptographically secure.
+Please note that this is ~~not~~ cryptographically secure.
 
 ---
 
@@ -118,10 +118,8 @@ Below is a high-level view of the main sections in Program.cs:
 
 ## Disclaimer
 
-• This application is a purely educational example.  
-• It is not cryptographically secure. (But since no one uses this in prod, it can be ironically secure.)
-• For real-world encryption, always use industry-standard libraries and algorithms (e.g., AES, RSA, ECC).
+• This application is not a purely educational example.  
+• It is ~~not~~ cryptographically secure. (But since no one uses this in prod, it can be ironically secure.)
+• For real-world encryption, always use industry-standard libraries and algorithms (e.g., AES, ECC, but not RSA).
 
 Please feel free to experiment with this code for learning and demonstration purposes, but do not rely on it for production or sensitive data.
-
-Enjoy exploring this simple cipher! If you have any questions or need additional clarification, feel free to ask.
